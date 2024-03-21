@@ -215,6 +215,11 @@ input {
     -webkit-border-radius: 0px;
 }
 
+/* About Us Navigation bar style added by Crawler */
+.main-mega-menu {
+  color: white;
+}
+
 /* Form CSS */
 .form-control {
     resize: none;
@@ -387,7 +392,7 @@ input:-moz-placeholder {
     display: inline-block;
     font-size: 18px;
     letter-spacing: 4px;
-    margin-bottom: 12px;
+    margin-bottom: 8px;
     position: relative;
     text-transform: uppercase;
     z-index: 1;
@@ -713,7 +718,6 @@ a.scrollup:focus i {
 }
 
 .header-style-2 {
-
 }
 
 .top-bar {
@@ -767,11 +771,13 @@ a.scrollup:focus i {
 =====*****=====*****=====*****=====*****/
 
 .header.header-style-2  .menu-style.bg-transparent {
-    background-color: rgba(255, 255, 255, 1) !important;
+    /* background-color: rgba(255, 255, 255, 1), */
+    background-color: rgba(255, 255, 255, 0.07)
 }
 
 .header.header-style-2 .menu-style.bg-transparent .navbar-nav li a.nav-link {
-    color: #091426;
+    /* color: #091426; */
+    color: #fff;
 }
 
 .header.header-style-2 .menu-style.menu-hover-2 .navbar-nav li.active a.nav-link,
@@ -790,12 +796,13 @@ a.scrollup:focus i {
     border-right-color: #eee;
 }
 
-.header.header-style-2 .fixed-header{
+/* .header.header-style-2 .fixed-header{
     background-color: #fff;
-}
+} */
 
 .header.header-style-2 .menu-style.bg-transparent .fixed-header .navbar-nav li a.nav-link {
-    color: #091426;
+    /* color: #091426; */
+    color: #fff;
 }
 
 .header.header-style-2 .menu-hover-2 .dropdown-buttons .btn-group .btn {
@@ -864,6 +871,7 @@ a.scrollup:focus i {
     -webkit-transition: all 0.5s ease-in-out;
     -o-transition: all 0.5s ease-in-out;
     transition: all 0.5s ease-in-out;
+    color: white;
 }
 
 .header .main-navigation.animated .navbar-nav li a {
@@ -2773,10 +2781,11 @@ About Features Css Style
   font-size: 18px;
   height: 22px;
   line-height: 24px;
-  margin-right: 14px;
+ 
   position: relative;
   text-align: center;
   width: 22px;
+  padding: 5px;
 }
 
 .about-features .content .company-funfact {
@@ -3336,6 +3345,13 @@ Content Divider Css Style
 
 .particles-contact #particles-js {
     background-color: transparent;
+}
+
+/*--------------------------------------------------------------
+Project Video section style
+----------------------------------------------------------------*/
+.project-video{
+
 }
 
 /*--------------------------------------------------------------
