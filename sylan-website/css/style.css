@@ -381,7 +381,7 @@ input:-moz-placeholder {
 =====*****=====*****=====*****=====*****/
 
 .section-title {
-    margin: 0 auto 62px;
+    margin: 0 auto 50px;
     padding: 0;
     position: relative;
     text-align: center;
@@ -416,7 +416,7 @@ input:-moz-placeholder {
     font-weight: 600;
     letter-spacing: 0.8px;
     line-height: 0.9;
-    margin-bottom: 22px;
+    padding-bottom: 5%;
     text-transform: uppercase;
 }
 
@@ -436,7 +436,7 @@ input:-moz-placeholder {
     color: #9c9c9c;
     font-family: 'Open Sans', sans-serif;
     font-size: 16px;
-    line-height: 26px
+    line-height: 26px;
     margin: 0 auto;
     max-width: 484px;
 }
@@ -2759,6 +2759,7 @@ About Features Css Style
 .about-features .content .company-list {
     display: inline-block;
     margin-bottom: 34px;
+    text-align: left;
 }
 
 .about-features .content .company-list li {
@@ -2917,6 +2918,7 @@ Projects Css Style
 
 .projects-item {
     margin-bottom: 30px;
+
 }
 
 .projects-item .thumb {
@@ -2927,6 +2929,7 @@ Projects Css Style
     padding: 14px 28px 28px;
     box-shadow: 0 5px 7px 0 rgba(111, 111, 111, 0.05);
 }
+
 
 .projects-item .content h1 {
     color: #ddd;
@@ -3351,7 +3354,7 @@ Content Divider Css Style
 Project Video section style
 ----------------------------------------------------------------*/
 .project-video{
-
+  padding: 30px;
 }
 
 /*--------------------------------------------------------------
